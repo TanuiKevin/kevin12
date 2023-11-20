@@ -1,0 +1,36 @@
+/* Add your custom styles here */
+/* Example style for rounded thumbnails */
+.thumbnail {
+	border-radius: 50%; /* Creates rounded corners */
+	width: 100px; /* Adjust as needed */
+	height: 100px; /* Adjust as needed */
+	margin: 5px; /* Adjust as needed */
+  }
+  
+  /* Example style for the main image */
+  .main-image {
+	text-align: center;
+	margin-top: 20px;
+	position: relative;
+	overflow: hidden;
+	width: 400px; /* Adjust as needed */
+	height: 300px; /* Adjust as needed */
+  }
+  
+  .sliding-images {
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+  }
+  
+  .slide-images-container {
+	display: flex;
+	transition: transform 0.5s ease-in-out;
+  }
+  
+  .slide-image {
+	width: 400px; /* Adjust as needed */
+	height: 300px; /* Adjust as needed */
+	margin-right: 20px; /* Adjust spacing between images */
+  }
+  
